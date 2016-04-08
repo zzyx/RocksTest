@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="D:\TRESH\SEL\Rocks\Selenium\net40\WebDriver.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8C446EEA55A24C4F92D36321C6487319/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8C446EEA55A24C4F92D36321C6487319/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8C446EEA55A24C4F92D36321C6487319/Name/@EntryValue">OpenAppTest</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=8C446EEA55A24C4F92D36321C6487319/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;e Id="Rocks.NUnitTest.OpenAppTest" Project="376914EE-26E5-4CC2-A9ED-5A71A5F4F2B8" Provider="nUnit" /&gt;&lt;e Id="Rocks.NUnitTest" Project="376914EE-26E5-4CC2-A9ED-5A71A5F4F2B8" Provider="nUnit" /&gt;&lt;/Session&gt;</s:String></wpf:ResourceDictionary>

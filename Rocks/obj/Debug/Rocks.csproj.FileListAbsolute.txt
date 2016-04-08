@@ -1,0 +1,9 @@
+D:\TRESH\SEL\Rocks\Rocks\bin\Debug\Rocks.dll
+D:\TRESH\SEL\Rocks\Rocks\bin\Debug\Rocks.pdb
+D:\TRESH\SEL\Rocks\Rocks\bin\Debug\WebDriver.dll
+D:\TRESH\SEL\Rocks\Rocks\bin\Debug\WebDriver.xml
+D:\TRESH\SEL\Rocks\Rocks\obj\Debug\Rocks.csprojResolveAssemblyReference.cache
+D:\TRESH\SEL\Rocks\Rocks\obj\Debug\Rocks.dll
+D:\TRESH\SEL\Rocks\Rocks\obj\Debug\Rocks.pdb
+D:\TRESH\SEL\Rocks\Rocks\bin\Debug\nunit.framework.dll
+D:\TRESH\SEL\Rocks\Rocks\bin\Debug\nunit.framework.xml
