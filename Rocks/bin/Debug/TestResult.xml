@@ -1,27 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="D:\TRESH\SEL\Rocks\Rocks\bin\Debug\Rocks.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-04-11" time="15:35:08">
+<test-results name="D:\TRESH\SEL\Rocks\Rocks\bin\Debug\Rocks.dll" total="3" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-05-12" time="18:49:49">
   <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="d:\ELAT_DEV\SVN_AUTO\tools\NUnit" machine-name="EPBYBREW0020" user="Mikhail_Amurov" user-domain="MINSK" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="D:\TRESH\SEL\Rocks\Rocks\bin\Debug\Rocks.dll" executed="True" result="Failure" success="False" time="0.185" asserts="0">
+  <test-suite type="Assembly" name="D:\TRESH\SEL\Rocks\Rocks\bin\Debug\Rocks.dll" executed="True" result="Failure" success="False" time="32.053" asserts="0">
     <results>
-      <test-suite type="Namespace" name="Rocks" executed="True" result="Failure" success="False" time="0.174" asserts="0">
+      <test-suite type="Namespace" name="Rocks" executed="True" result="Failure" success="False" time="32.044" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="NUnitTest" executed="True" result="Failure" success="False" time="0.173" asserts="0">
+          <test-suite type="TestFixture" name="NUnitTest" executed="True" result="Failure" success="False" time="32.044" asserts="0">
             <results>
-              <test-case name="Rocks.NUnitTest.OpenAppTest" executed="True" result="Error" success="False" time="0.162" asserts="0">
+              <test-case name="Rocks.NUnitTest.GetNames" executed="True" result="Error" success="False" time="10.210" asserts="0">
                 <failure>
-                  <message><![CDATA[SetUp : OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
-TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
-                  <stack-trace><![CDATA[at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
-at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
-at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
-at Rocks.NUnitTest.Inintialize() in d:\TRESH\SEL\Rocks\Rocks\UnitTest1.cs:line 24
---TearDown
-at Rocks.NUnitTest.EndTest() in d:\TRESH\SEL\Rocks\Rocks\UnitTest1.cs:line 93
+                  <message><![CDATA[OpenQA.Selenium.NoSuchElementException : Unable to locate element: {"method":"xpath","selector":"//a[@title='Prev' ]"}]]></message>
+                  <stack-trace><![CDATA[at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+at Rocks.NUnitTest.GetNames() in d:\TRESH\SEL\Rocks\Rocks\UnitTest1.cs:line 67
 ]]></stack-trace>
                 </failure>
               </test-case>
+              <test-case name="Rocks.NUnitTest.KamtugesaExist" executed="True" result="Success" success="True" time="12.647" asserts="0" />
+              <test-case name="Rocks.NUnitTest.OpenAppTest" executed="True" result="Success" success="True" time="9.152" asserts="0" />
             </results>
           </test-suite>
         </results>

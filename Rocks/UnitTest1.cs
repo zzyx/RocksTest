@@ -20,8 +20,8 @@ namespace Rocks
         [SetUp]
         public void Inintialize()
         {
-            //driver = new FirefoxDriver();
-            driver = new ChromeDriver() ;
+            driver = new FirefoxDriver();
+            //driver = new ChromeDriver() ;
 
             driver.Manage().Window.Maximize();
             //TimeSpan t  = new TimeSpan(0,0,60);
