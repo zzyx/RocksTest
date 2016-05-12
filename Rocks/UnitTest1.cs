@@ -7,6 +7,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 
 using NUnit.Framework;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.IE;
 
 namespace Rocks
@@ -19,7 +20,9 @@ namespace Rocks
         [SetUp]
         public void Inintialize()
         {
-            driver = new FirefoxDriver();
+            //driver = new FirefoxDriver();
+            driver = new ChromeDriver() ;
+
             driver.Manage().Window.Maximize();
             //TimeSpan t  = new TimeSpan(0,0,60);
             //driver.Manage().Timeouts().ImplicitlyWait(t);
@@ -52,12 +55,12 @@ namespace Rocks
         [Test]
         public void GetNames()
         {
-            var dateXpath = @"//*[@id='caption-hp-player' and ./a/span[contains(text(),'9:45')] ]/span";
-            var textXpath = @"//*[@id='caption-hp-player' and ./a/span[contains(text(),'9:45')] ]/div[@class='about']";
-            var prevButton = @"//a[@title='Prev' ]";
-            var selecDate = @"//*[@class='ui-datepicker-calendar']//*[@onclick]/a[text()='{0}']";
+            const string dateXpath = @"//*[@id='caption-hp-player' and ./a/span[contains(text(),'9:45')] ]/span";
+            const string textXpath = @"//*[@id='caption-hp-player' and ./a/span[contains(text(),'9:45')] ]/div[@class='about']";
+            const string prevButton = @"//a[@title='Prev' ]";
+            const string selecDate = @"//*[@class='ui-datepicker-calendar']//*[@onclick]/a[text()='{0}']";
 
-            for (int i = 0; i < 2; i++)
+            for (var i = 0; i < 2; i++)
             {
                 var dates = driver.FindElements(By.CssSelector(".ui-datepicker-calendar [onclick] a")).ToList();
                 var listeList = dates.Select(webElement => webElement.Text).ToList();
@@ -76,8 +79,6 @@ namespace Rocks
                         finally
                         {
                         }
-
-
                     }
                     driver.FindElement(By.XPath(prevButton)).Click();
                 }
